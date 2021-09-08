@@ -1,0 +1,30 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.task {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.task > div {
+    display: flex;
+}
+
+.task > div > p {
+    margin: 6px 2px
+}
+
+.task > p {
+    margin: 6px 2px
+}
+
+.task > input {
+    display: inline;
+    width: 100px;
+    min-width: fit-content;
+    margin-right: 2px;
+}
+
+.all-operation-checkbox {
+    font-weight: 500;
+}
